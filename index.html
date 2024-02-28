@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>LerCoffee Livraria e Cafeteria</title>
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
+		<link
+			rel="preconnect"
+			href="https://fonts.googleapis.com" />
+		<link
+			rel="preconnect"
+			href="https://fonts.gstatic.com"
+			crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700&display=swap"
+			rel="stylesheet" />
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" />
+		<link
+			rel="stylesheet"
+			href="style.css" />
+	</head>
+	<body>
+		<header
+			class="navbar navbar-expand-lg sticky-top p-4"
+			id="cabecalho">
+			<div class="container">
+				<h1 class="navbar-brand m-0 section-title">
+					LerCoffee Livraria e Cafeteria
+				</h1>
+
+				<button
+					class="navbar-toggler"
+					data-bs-toggle="collapse"
+					data-bs-target="#menu-navegacao">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<nav
+					class="navbar-collapse collapse justify-content-end"
+					id="menu-navegacao">
+					<ul class="nav nav-pills d-block d-md-flex">
+						<li class="nav-item fw-bold ">
+							<a
+								href="#sobre-o-LerCoffee Livraria e Cafeteria"
+								class="nav-link">
+								<i class="bi bi-house-door me-1">
+									Sobre o LerCoffee Livraria e Cafeteria</i
+								>
+							</a>
+						</li>
+
+						<li class="nav-item fw-bold">
+							<a
+								href="#eventos"
+								class="nav-link">
+								<i class="bi bi-calendar-check me-1">
+									Eventos</i
+								>
+							</a>
+						</li>
+
+						<li class="nav-item fw-bold">
+							<a
+								href="#cardapio"
+								class="nav-link">
+								<i class="bi bi-card-text me-1">
+									Nosso cardápio
+								</i>
+							</a>
+						</li>
+
+						<li class="nav-item fw-bold">
+							<a
+								href="#fale-conosco"
+								class="nav-link">
+								<i class="bi bi-chat-left-text me-1">
+									Fale-conosco
+								</i>
+							</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<div
+			data-bs-spy="scroll"
+			data-bs-target="cabecalho"
+			data-bs-smooth-scroll="true">
+			<section id="sobre-o-LerCoffee Livraria e Cafeteria">
+				<div
+					class="carousel slide"
+					data-bs-ride="carousel"
+					id="carousel">
+					<div class="carousel-inner">
+						<div
+							class="carousel-item active"
+							data-bs-interval="3000">
+							<img
+								src="./assets/P05-Imagem-02.jpg"
+								alt="Foto do espaço do LerCoffee Livraria e Cafeteria" />
+						</div>
+						<div
+							class="carousel-item"
+							data-bs-interval="3000">
+							<img
+								src="./assets/P05-Imagem-03.jpg"
+								alt="Foto do cantinho dos livros" />
+						</div>
+						<div
+							class="carousel-item"
+							data-bs-interval="3000">
+							<img
+								src="./assets/20180221-dolce-bruschi-2.jpg"
+								alt="Foto do espaço do café" />
+						</div>
+						<button
+							class="carousel-control-prev"
+							type="button"
+							data-bs-target="#carousel"
+							data-bs-slide="prev">
+							<span class="carousel-control-prev-icon"></span>
+						</button>
+						<button
+							class="carousel-control-next"
+							type="button"
+							data-bs-target="#carousel"
+							data-bs-slide="next">
+							<span class="carousel-control-next-icon"></span>
+						</button>
+						<div class="carousel-indicators">
+							<button
+								type="button"
+								data-bs-target="#carousel"
+								class="active"
+								data-bs-slide-to="0"></button>
+							<button
+								type="button"
+								data-bs-target="#carousel"
+								data-bs-slide-to="1"></button>
+							<button
+								type="button"
+								data-bs-target="#carousel"
+								data-bs-slide-to="2"></button>
+						</div>
+					</div>
+                    
+                    <div class="pt-5 pb-5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-5">
+                                    <img src="./assets/20180221-dolce-bruschi-2.jpg" 
+                                    class="d-block w-100 rounded"
+                                    alt="Foto do espaço interno do LerCoffee Livraria e Cafeteria ">
+                                </div>
+                                <div class="col-md-7 mt-3 mt-md-0">
+                                    <h2 class="section-title">
+                                        Sobre
+                                        <span class="text-colored">
+                                            O LerCoffee Livraria e Cafeteria
+                                        </span>
+                                    </h2>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur veritatis dolores obcaecati nobis deserunt facilis assumenda eum. Quo ea quae, cupiditate illum ex pariatur, esse porro delectus beatae atque commodi!
+                                    </p>
+                                    <h3 class="section-title">
+                                        Sobre
+                                        <span class="text-colored">O espaço</span>
+                                    </h3>
+                                    <p>
+                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Et atque expedita autem molestiae repellat voluptas id impedit, sequi cupiditate, praesentium illo quibusdam animi eligendi sunt aperiam tempora officia asperiores amet?
+                                    </p>
+                                    <ul>
+                                        <li>Item 1</li>
+                                        <li>Item 2</li>
+                                        <li>Item 3</li>
+                                    </ul>
+                                </div >
+                            </div>
+                        </div>
+                    </div>
+			</section>
+
+            <section
+             id="eventos" 
+             class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <h2 class="section-title text-center">
+                            Para todas
+                            <span class="text-colored">as ocasiões</span>
+                        </h2>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col-md-4">
+                            <img 
+                            src="./assets/Eventos/istockphoto-1205880285-612x612.jpg" 
+                            alt="" 
+                            class="d-block w-100 rounded mb-2"/>
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-calendar-heart-fill"></i>
+                                Roda de conversa
+                            </h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, saepe. Dolorem esse soluta laboriosam nemo tempora magnam quas necessitatibus deserunt ad corrupti ut, explicabo incidunt, saepe est laborum dignissimos quam.
+                            </p>
+
+                        </div>
+
+                        <div class="col-md-4">
+                            <img 
+                            src="./assets/Eventos/istockphoto-1297456360-612x612.jpg" 
+                            alt="" 
+                            class="d-block w-100 rounded mb-2"/>
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-arrow-through-heart-fill"></i>
+                                Momento de leitura em grupo
+                            </h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, saepe. Dolorem esse soluta laboriosam nemo tempora magnam quas necessitatibus deserunt ad corrupti ut, explicabo incidunt, saepe est laborum dignissimos quam.
+                            </p>
+
+                        </div>
+
+                        <div class="col-md-4">
+                            <img 
+                            src="./assets/Eventos/istockphoto-599966182-612x612.jpg" 
+                            alt="" 
+                            class="d-block w-100 rounded mb-2"/>
+                            <h3 class="section-title text-colored fs-4">
+                                <i class="bi bi-people-fill"></i>
+                               Apresentação de novos livros
+                            </h3>
+                            <p>
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas, saepe. Dolorem esse soluta laboriosam nemo tempora magnam quas necessitatibus deserunt ad corrupti ut, explicabo incidunt, saepe est laborum dignissimos quam.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section >
+            <section 
+            id="cardapio" 
+            class="pt-5 pd-5">
+                <div class="container" >
+                    <div class="row">
+                        <h2 class="section-title text-center mb-5">
+                            Nosso <span class="text-colored">Cardápio</span>
+                        </h2>
+                    </div>
+                    <div class="row">
+                        <aside class="col-md-2">
+                            <nav class="nav nav-pills flex-column nav-cardapio">
+                                <button 
+                                type="button"
+                                data-bs-toggle="tab"
+                                data-bs-target="#bebidas-sem-alcool"
+                                class="fw-bold text-start nav-link text-colored active">
+                                Bebidas não alcoólicas
+                                </button >
+
+                                <button type="button"
+                                data-bs-toggle="tab"
+                                data-bs-target="#bebidas-alcoolicas"
+                                class="fw-bold text-start nav-link text-colored ">
+                                Bebidas alcoólicas
+
+                                </button >
+                                <button type="button"
+                                data-bs-toggle="tab"
+                                data-bs-target="#entradas"
+                                class="fw-bold text-start nav-link text-colored">
+                                Entradas
+
+                                </button >
+                                <button type="button"
+                                data-bs-toggle="tab"
+                                data-bs-target="#pratos-principais"
+                                class="fw-bold text-start nav-link text-colored ">
+                                Pratos principais
+
+                                </button >
+                                <button type="button"
+                                data-bs-toggle="tab"
+                                data-bs-target="#sobremesas"
+                                class="fw-bold text-start nav-link text-colored ">
+                                Sobremesas
+                                </button >
+                            </nav>
+                        </aside>
+                        <div class="col-md-10">
+                            <div class="tab-content">
+                                <div class="tab-pane active"
+                                id="bebidas-sem-alcool">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/cardapio/caffeine-1867326_640.jpg"
+                                         alt="Xícara de leite com raspas de chocolate">
+                                         <h5 class="text-colored fw-bold mt-2">
+                                            Xícara de leite com raspas de chocolate
+
+                                         </h5>
+                                         <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam aut eius hic beatae illum libero ipsum maiores odio! Ipsum earum sed eligendi recusandae tempora quas, quos nesciunt totam fugit minus.
+                                         </p>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/cardapio/coffee-1197758_640.jpg"
+                                         alt="Café preto com bolo">
+                                         <h5 class="text-colored fw-bold mt-2">
+                                            Café preto com bolo
+
+                                         </h5>
+                                         <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam aut eius hic beatae illum libero ipsum maiores odio! Ipsum earum sed eligendi recusandae tempora quas, quos nesciunt totam fugit minus.
+                                         </p>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/cardapio/caffeine-1867326_640.jpg"
+                                         alt="Xícara de leite com raspas de chocolate">
+                                         <h5 class="text-colored fw-bold mt-2">
+                                            Xícara de leite com raspas de chocolate
+
+                                         </h5>
+                                         <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam aut eius hic beatae illum libero ipsum maiores odio! Ipsum earum sed eligendi recusandae tempora quas, quos nesciunt totam fugit minus.
+                                         </p>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/cardapio/coffee-3095242_640.jpg"
+                                         alt="Xícara de café e dois corações">
+                                         <h5 class="text-colored fw-bold mt-2">
+                                            Xícara de café e dois corações
+
+                                         </h5>
+                                         <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam aut eius hic beatae illum libero ipsum maiores odio! Ipsum earum sed eligendi recusandae tempora quas, quos nesciunt totam fugit minus.
+                                         </p>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/cardapio/hot-chocolate-1137641_640.jpg"
+                                         alt="Chocolate quente">
+                                         <h5 class="text-colored fw-bold mt-2">
+                                            Chocolate quente
+
+                                         </h5>
+                                         <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam aut eius hic beatae illum libero ipsum maiores odio! Ipsum earum sed eligendi recusandae tempora quas, quos nesciunt totam fugit minus.
+                                         </p>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/cardapio/hot-chocolate-5828239_640.jpg"
+                                         alt="Café Cappuccino">
+                                         <h5 class="text-colored fw-bold mt-2">
+                                          Café Cappuccino
+
+                                         </h5>
+                                         <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam aut eius hic beatae illum libero ipsum maiores odio! Ipsum earum sed eligendi recusandae tempora quas, quos nesciunt totam fugit minus.
+                                         </p>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="assets/cardapio/mango-smoothie-8119280_640.webp"
+                                        alt="Suco de manga">
+                                         <h5 class="text-colored fw-bold mt-2">
+                                            Suco de manga
+
+                                         </h5>
+                                         <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam aut eius hic beatae illum libero ipsum maiores odio! Ipsum earum sed eligendi recusandae tempora quas, quos nesciunt totam fugit minus.
+                                         </p>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/cardapio/coffee-563800_640.jpg"
+                                         alt="Café com leite">
+                                         <h5 class="text-colored fw-bold mt-2">
+                                            Café com leite
+
+                                         </h5>
+                                         <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam aut eius hic beatae illum libero ipsum maiores odio! Ipsum earum sed eligendi recusandae tempora quas, quos nesciunt totam fugit minus.
+                                         </p>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/cardapio/coffee-3095242_640.jpg"
+                                         alt="Xícara de café e dois corações">
+                                         <h5 class="text-colored fw-bold mt-2">
+                                            Xícara de café com dois corações
+
+                                         </h5>
+                                         <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam aut eius hic beatae illum libero ipsum maiores odio! Ipsum earum sed eligendi recusandae tempora quas, quos nesciunt totam fugit minus.
+                                         </p>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/cardapio/coffee-4334647_1280.jpg"
+                                         alt="Café expresso">
+                                         <h5 class="text-colored fw-bold mt-2">
+                                            Café expresso
+
+                                         </h5>
+                                         <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam aut eius hic beatae illum libero ipsum maiores odio! Ipsum earum sed eligendi recusandae tempora quas, quos nesciunt totam fugit minus.
+                                         </p>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/cardapio/coffee-1197758_640.jpg"
+                                         alt="Café preto com bolo">
+                                         <h5 class="text-colored fw-bold mt-2">
+                                            Café preto com bolo
+
+                                         </h5>
+                                         <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam aut eius hic beatae illum libero ipsum maiores odio! Ipsum earum sed eligendi recusandae tempora quas, quos nesciunt totam fugit minus.
+                                         </p>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/cardapio/coffee-4648041_640.jpg"
+                                         alt="Sorvete com cauda de café">
+                                         <h5 class="text-colored fw-bold mt-2">
+                                            Sorvete com cauda de café
+
+                                         </h5>
+                                         <p>
+                                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam aut eius hic beatae illum libero ipsum maiores odio! Ipsum earum sed eligendi recusandae tempora quas, quos nesciunt totam fugit minus.
+                                         </p>
+                                    </div>
+                                </div>
+
+                                </div>
+                                <div
+                                 class="tab-pane" 
+                                 id="bebidas-alcoolicas">
+                                 <div class="row">
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/cardapio/beer-caramel-ice-1423615_640.jpg" 
+                                        alt="Cerveja com sabor de caramelo">
+                                      <h5 class="text-colored fw-bold"> 
+                                        Cerveja com sabor de caramelo</h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore aliquam, doloribus eaque nihil ad amet, magnam at ex quod sed labore earum voluptatem hic aperiam deleniti sint consectetur, quae praesentium.
+                                        </p>
+
+
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/cardapio/alcohol-1850038_640.jpg" 
+                                        alt="Martini com limão">
+                                      <h5 class="text-colored fw-bold"> 
+                                         Martini com limão</h5>
+                                         <p>
+                                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus tempore maiores laudantium id minima necessitatibus! Reprehenderit, necessitatibus. Magnam eaque officiis repellat voluptatibus dolores officia ab quae esse est! Corrupti, ratione!
+                                         </p>
+
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/cardapio/beer-caramel-ice-1423615_640.jpg" 
+                                        alt="Cerveja com sabor de caramelo">
+                                      <h5 class="text-colored fw-bold"> 
+                                        Cerveja com sabor de caramelo</h5>
+                                        <p>
+                                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda excepturi quidem reprehenderit tenetur, rerum unde corrupti minima rem non facere laudantium laborum repellat ab quos libero, nulla nesciunt provident saepe?
+                                        </p>
+
+
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/cardapio/alcohol-1850038_640.jpg" 
+                                        alt="Martini com limão">
+                                      <h5 class="text-colored fw-bold"> 
+                                         Martini com limão</h5>
+                                         <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, totam maiores dolore sed at dicta enim in modi ex blanditiis pariatur quaerat, repellat illo corrupti id, voluptates ducimus exercitationem aut.
+                                         </p>
+
+                                    </div>
+
+                                 </div>
+
+                                </div>
+                                <div class="tab-pane"
+                                id="entradas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/entradas/entrada.jpg" 
+                                        alt="Petiscos">
+                                        <h5 class="text-colored fw-bold">
+                                            Petiscos
+                                        </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, totam maiores dolore sed at dicta enim in modi ex blanditiis pariatur quaerat, repellat illo corrupti id, voluptates ducimus exercitationem aut.
+                                         </p>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/entradas/entrada.jpg" 
+                                        alt=" Petiscos">
+                                        <h5 class="text-colored fw-bold">
+                                            Petiscos
+                                        </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, totam maiores dolore sed at dicta enim in modi ex blanditiis pariatur quaerat, repellat illo corrupti id, voluptates ducimus exercitationem aut.
+                                         </p>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/entradas/entrada.jpg" 
+                                        alt=" Petiscos">
+                                        <h5 class="text-colored fw-bold">
+                                            Petiscos
+                                        </h5>
+                                        <p>
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, totam maiores dolore sed at dicta enim in modi ex blanditiis pariatur quaerat, repellat illo corrupti id, voluptates ducimus exercitationem aut.
+                                         </p>
+
+                                    </div>
+
+                                </div>
+
+                                </div>
+
+                                <div 
+                                class="tab-pane"
+                                id="pratos-principais">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/pratos principais/pizza.jpg" 
+                                        alt="Pizza">
+                                        <h5 class="text-colored fw-bold mt-2">
+                                            Pizza 
+                                        </h5>
+                                            <p>
+                                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ut necessitatibus cumque voluptatibus, a eum officia rerum debitis est quidem dicta, excepturi molestiae sit quia vel ea ad magnam asperiores ipsum?
+                                            </p>
+
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img 
+                                        class="d-block w-100"
+                                        src="./assets/pratos principais/salmao.jpg" 
+                                        alt="Salmão">
+                                        <h5 class="text-colored fw-bold mt-2">
+                                            Salmão
+                                           </h5>
+                                           <p>
+                                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni officiis molestias reprehenderit, impedit quae asperiores non repellat nam fugiat rem animi esse possimus cumque cum rerum. Quaerat iste suscipit at.
+                                           </p>
+
+                                    </div>
+                                </div>
+
+                                </div>
+                                <div 
+                                class="tab-pane"
+                                id="sobremesas">
+                                <div class="row">
+                                    <div class="col-md-3">
+                                        <img
+                                        class="d-block w-100"
+                                         src="./assets/sobremesas/apple-2894878_640.jpg" 
+                                         alt="torta de maça">
+                                         <h5 class=" text-colored mt-2">
+                                            Torta de maçã
+                                         </h5>
+                                         <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nobis culpa fugiat consequuntur laboriosam quasi eius vitae molestiae impedit consectetur qui voluptatum modi natus vero nemo, corporis, perspiciatis sapiente officia?
+                                         </p>
+
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img
+                                        class="d-block w-100"
+                                         src="./assets/sobremesas/istockphoto-530585723-2048x2048.jpg" 
+                                         alt="torradas tortilhas">
+                                         <h5 class=" text-colored mt-2">
+                                            Torradas e tortilhas
+                                             
+                                         </h5>
+                                         <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nobis culpa fugiat consequuntur laboriosam quasi eius vitae molestiae impedit consectetur qui voluptatum modi natus vero nemo, corporis, perspiciatis sapiente officia?
+                                         </p>
+
+                                    </div>
+                                    <div class="col-md-3">
+                                        <img
+                                        class="d-block w-100"
+                                         src="./assets/sobremesas/istockphoto-863444442-2048x2048.jpg" 
+                                         alt=" mini tortas">
+                                         <h5 class=" text-colored mt-2">
+                                            Mini tortas
+                                         </h5>
+                                         <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nobis culpa fugiat consequuntur laboriosam quasi eius vitae molestiae impedit consectetur qui voluptatum modi natus vero nemo, corporis, perspiciatis sapiente officia?
+                                         </p>
+
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <img
+                                        class="d-block w-100"
+                                         src="./assets/sobremesas/pancakes-5989136_1280.jpg" 
+                                         alt="panquecas">
+                                         <h5 class=" text-colored mt-2">
+                                            Panquecas
+                                         </h5>
+                                         <p>
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Placeat nobis culpa fugiat consequuntur laboriosam quasi eius vitae molestiae impedit consectetur qui voluptatum modi natus vero nemo, corporis, perspiciatis sapiente officia?
+                                         </p>
+
+                                    </div>
+
+                                </div>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+            <section 
+            id="fale-conosco"
+            class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">
+                        Fale <span class="text-colored">Conosco</span>
+                    </h2>
+                    <div class="row">
+                        <div class="col-md-7 mb-5">
+                            <form >
+                                <div class="mb-3">
+                                    <label
+                                     for="nome"
+                                     class="form-label fw-bold text-colored">
+                                    Seu nome</label>
+                                    <input
+                                     type="text"
+                                     id="nome"
+                                     class="form-control"
+                                     required/>
+                                </div>
+                                <div class="mb-3">
+                                    <label 
+                                    for="email"
+                                    class="form-label fw-bold text-colored">
+                                Seu e-mail</label>
+                                <input 
+                                type="email"
+                                id="email"
+                                class="form-control"
+                                required/>
+                                </div>
+                                <div class="mb-3">
+                                    <label
+                                     for="telefone"
+                                     class="form-label fw-bold text-colored">
+                                    Seu telefone(opcional) </label>
+                                    <input
+                                     type="tel"
+                                     id="telefone"
+                                     class="form-control">
+                                </div>
+                                <div class="mb-3">
+                                    <label 
+                                    for="mensagem"
+                                    class="form-label fw-bold text-colored">
+                                Sua mensagem</label>
+                                <textarea
+                                class="form-control" 
+                                id="mensagem"
+                                required></textarea>
+                                </div>
+                                <button type="submit"
+                                class="btn fw-bold"
+                                class="btn">
+                                Enviar
+                                </button>
+                            </form>
+                        </div>
+                        <div class="col-md-5">
+                            <div class="row">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-hand-thumbs-up-fill"></i>
+                                    Redes sociais
+                                </h3>
+                                <ul class="sociais-links">
+                                    <li class="fs-5">
+                                        <a href="#">
+                                            <i class="bi bi-facebook text-colored">
+                                            </i>
+                                        </a>
+                                    </li>
+                                        <li class="fs-5 ms-1 me-1">
+                                            <a href="#">
+                                                <i class="bi bi-instagram text-colored">
+                                                </i>
+                                            </a>
+                                        </li>
+                                        <li class="fs-5">
+                                            <a href="#">
+                                                <i class="bi bi-wahtsapp text-colored">
+                                                </i>
+                                            </a>
+                                        </li> 
+                                </ul>
+
+                            </div>
+                            <div class="row mt-4">
+                                <h3 class="section-title fs-4 text-colored">
+                                    <i class="bi bi-cursor-fill"></i>
+                                    Endereço
+                                </h3>
+                                <p>
+                                    Rua Teste Exemplo nº 145, Bairro 
+                                    Bootstrap - São Paulo - SP
+                                </p>
+
+                            </div>
+                            
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            </section>
+		</div>
+		<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
+
+
