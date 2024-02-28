@@ -15,7 +15,7 @@ body {
 .navbar-brand,
 .navbar-brand:hover,
 .nav-cardapio .nav-link.active:hover {
-    color:#513294;
+    color:#513294; 
 }
 
 .navbar-toggler {
@@ -26,8 +26,8 @@ body {
     font-family: Pacifico, cursive;
 }
 
-#sobre-o-LerCoffee Livraria e Cafeteria, #cardapio {
-    background-color: #ffeae6;
+#sobre-o-LerCoffee, #cardapio {
+    background-color: #ffeae6; 
 }
 
 .text-colored {
